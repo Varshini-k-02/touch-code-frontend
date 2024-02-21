@@ -10,7 +10,7 @@ import "../css/App.css";
 const myPeer = new Peer();
 // https://peaceful-depths-33963.herokuapp.com/
 // http://localhost:4000
-const socket = io(`${process.env.REACT_APP_BASE_URL}`);
+const socket = io("https://touch-code-server.vercel.app/");
 const peers = {};
 
 class App extends Component {
